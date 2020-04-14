@@ -1,0 +1,55 @@
+body
+{
+background-image: url(../imagenes/lluvia.jpg);
+background-repeat: no-repeat;
+background-size: 100% 200%;
+padding:0;
+margin:0;
+}
+
+input[type='text'],input[type='email'],input [type='file'],input [type='submit']
+{
+	border-radius:0px;
+}
+
+.listado
+{
+padding: 0;
+margin: 0;
+
+}
+
+.listado > li
+{
+list-style: none;
+padding:10px;
+text-align: center;
+
+}
+
+.listado > li:hover
+{
+list-style: none;
+background: white;
+width:100%;
+
+
+}
+
+
+.listado > li > a:hover
+{
+text-decoration: none;
+padding:5px;
+color:black;
+
+
+}
+
+.listado > li > a
+{
+text-decoration: none;
+padding:5px;
+color: white;
+
+}
